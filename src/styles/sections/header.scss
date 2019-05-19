@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+
+  h1, input {
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+  form {
+    position: relative;
+    flex-basis: 40%;
+    min-width: 250px;
+  }
+}
+
+.header-search {
+  width: 80%;
+}
+
+.header-search-button {
+  padding: 0;
+  margin-left: -2em;
+  vertical-align: initial;
+}

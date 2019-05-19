@@ -1,0 +1,43 @@
+@charset 'UTF-8';
+
+@import '~normalize.css/normalize';
+
+// Skeleton.css
+@import '~skeleton-sass-official/skeleton/themes/fresh/vars';
+@import '~skeleton-sass-official/skeleton/core/config';
+@import '~skeleton-sass-official/skeleton/themes/fresh/grid';
+@import '~skeleton-sass-official/skeleton/themes/fresh/include_components';
+
+// Settings
+@import './variables';
+
+// Tools
+@import './tools/mixins';
+@import './tools/functions';
+
+// Core
+@import './core/forms';
+@import './core/helpers';
+@import './core/layout';
+@import './core/media';
+@import './core/responsive-tables';
+@import './core/rte';
+@import './core/typography';
+
+// Components
+@import './components/buttons';
+@import './components/hero-banner';
+@import './components/icons';
+@import './components/placeholders';
+@import './components/responsive-images';
+
+// Sections
+@import './sections/header';
+@import './sections/blog-posts';
+@import './sections/collection-list';
+@import './sections/featured-collection';
+@import './sections/image-with-text';
+
+// Templates
+@import './templates/gift_card';
+@import './templates/product';
