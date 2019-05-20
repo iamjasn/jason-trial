@@ -27,3 +27,15 @@ header {
   margin-left: -2em;
   vertical-align: initial;
 }
+
+nav {
+  ul {
+  list-style: none;
+  display: flex;
+  }
+
+  li {
+    font-weight: 600;
+    text-indent: 1em;
+  }
+}
